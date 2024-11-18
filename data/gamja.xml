@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>감자</title>
+        <author>김동인</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>디지털 인문학 연구소</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>개벽</publisher>
+        <date>1925</date>
+        <availability>
+          <p>저작권 만료</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>감자</title>
+          <author>김동인</author>
+          <publisher>개벽사</publisher>
+          <date>1925</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term>리얼리즘</term>
+          <term>농촌 소설</term>
+          <term>사회 비판</term>
+        </keywords>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name>산골 마을</name>
+          <time>1920년대</time>
+          <locale>강원도</locale>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="background">
+        <head>작품 배경</head>
+        <p>1920년대 강원도의 한 산골 마을. 일제강점기 농촌의 계급 문제와 빈부 격차가 심각했던 시기.</p>
+      </div>
+      
+      <div type="character">
+        <person xml:id="BOKNYEO">
+          <persName>복녀</persName>
+          <age>28</age>
+          <state type="social">농민</state>
+          <trait type="personality">순박함</trait>
+          <trait type="personality">성실함</trait>
+          <trait type="development">도덕적 타락</trait>
+          <residence>산골 마을</residence>
+          <relationGrp>
+            <relation type="spouse" ref="#SEONDAL">정선달 (사망)</relation>
+            <relation type="child">딸 (사망)</relation>
+          </relationGrp>
+        </person>
+        
+        <person xml:id="KIMJUSA">
+          <persName>김 주사</persName>
+          <age>50</age>
+          <state type="social">지주</state>
+          <trait type="personality">탐욕스러움</trait>
+          <trait type="personality">교활함</trait>
+          <socecStatus>마을의 유지</socecStatus>
+          <residence>산골 마을</residence>
+        </person>
+      </div>
+      
+      <div type="plot">
+        <div type="event" n="1">
+          <head>발단</head>
+          <p>남편과 딸을 잃은 복녀는 홀로 김 주사의 땅에서 감자를 경작하며 살아간다.</p>
+        </div>
+        
+        <div type="event" n="2">
+          <head>전개</head>
+          <p>김 주사는 끊임없이 소작료를 올리며 복녀를 착취한다.</p>
+        </div>
+        
+        <div type="event" n="3">
+          <head>절정</head>
+          <p>생계의 어려움으로 복녀는 결국 매춘으로 전락한다.</p>
+        </div>
+        
+        <div type="event" n="4">
+          <head>결말</head>
+          <p>복녀는 육체적, 정신적으로 완전히 파멸한다.</p>
+        </div>
+      </div>
+      
+      <div type="theme">
+        <head>주제</head>
+        <list>
+          <item>일제강점기 농촌의 계급 문제</item>
+          <item>사회적 약자의 비극적 운명</item>
+          <item>인간성의 파괴</item>
+        </list>
+      </div>
+      
+      <div type="significance">
+        <head>문학사적 의의</head>
+        <p>리얼리즘 기법을 통해 당대 농촌 현실을 사실적으로 묘사하고, 계급 사회의 부조리를 신랄하게 비판했다.</p>
+      </div>
+      
+      <div type="criticism">
+        <head>비평적 관점</head>
+        <list>
+          <item>사회학적 관점: 계급 문제와 빈부 격차의 심각성</item>
+          <item>페미니즘적 관점: 여성의 이중적 착취 문제</item>
+          <item>리얼리즘적 관점: 사실주의적 묘사와 현실 고발</item>
+        </list>
+      </div>
+    </body>
+  </text>
+</TEI>
