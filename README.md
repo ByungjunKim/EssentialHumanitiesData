@@ -291,29 +291,32 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>감자</title>
-        <author>김동인</author>
-        <respStmt>
-          <resp>TEI 인코딩</resp>
-          <name>디지털 인문학 연구소</name>
+  <teiHeader>                           <!-- 메타데이터 섹션 시작 -->
+    <fileDesc>                          <!-- 파일 설명 -->
+      <titleStmt>                       <!-- 제목 정보 -->
+        <title>감자</title>             <!-- 작품 제목 -->
+        <author>김동인</author>         <!-- 작가 -->
+        <respStmt>                      <!-- 책임 사항 -->
+          <resp>TEI 인코딩</resp>       <!-- 작업 내용 -->
+          <name>디지털 인문학 연구소</name>  <!-- 작업자 -->
         </respStmt>
       </titleStmt>
-      <publicationStmt>
-        <publisher>개벽</publisher>
-        <date>1925</date>
+      <publicationStmt>                 <!-- 출판 정보 -->
+        <publisher>개벽</publisher>     <!-- 출판사 -->
+        <date>1925</date>              <!-- 출판 연도 -->
       </publicationStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="character">
-        <person xml:id="BOKNYEO">
-          <persName>복녀</persName>
-          <trait type="personality">순박함</trait>
-          <residence>산골 마을</residence>
+      <div type="character">            <!-- type 속성으로 구분된 등장인물 섹션 -->
+        <person xml:id="BOKNYEO">       <!-- xml:id 속성으로 고유 식별자 지정 -->
+          <persName>복녀</persName>     <!-- 인물 이름 -->
+          <trait type="personality">    <!-- trait 요소로 성격 특성 표현 -->
+            <label>성격</label>
+            <desc>순박함</desc>
+          </trait>
+          <residence>산골 마을</residence>  <!-- 거주지 정보 -->
         </person>
       </div>
     </body>
