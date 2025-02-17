@@ -1,0 +1,14 @@
+{
+  "문장ID": "S2",
+  "텍스트": {
+    "1818년판": "The infant Elizabeth, the only child of his deceased sister, was cared for in his home.",
+    "1831년판": "They were fond of the sweet orphan."
+  },
+  "변화유형": "인물 배경 변경 (사촌→고아)",
+  "주석": "1818년판은 친족 관계를 강조하여 'his deceased sister'를 언급하는 반면, 1831년판은 'orphan'이라는 용어로 인물 배경이 전면 재해석되었다.",
+  "인물정보": {
+    "인물명": "Elizabeth",
+    "역할": "주요 인물",
+    "설명": "원래는 고모의 딸로 소개되었으나, 개정판에서는 고아로 재해석되어 가족 관계가 변경되었다."
+  }
+}
